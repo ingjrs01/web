@@ -11,13 +11,20 @@
 <body>
   <div id="main">
     <h2>Data</h2>
+    <h3>Viendo ejemplos con Vue</h3>
     <example-component></example-component>
-</div>    
+
+  </div>
+  <template id="example-template">
+    <div class="cosa">
+      <h1>Probando el componente {{nombre}}</h1>
+      <p>Érase una vez, un cuento de hadas ...</p>
+    </div>
+  </template>
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.js"></script>   
-<script src="js/app.js"></script>        
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
 
