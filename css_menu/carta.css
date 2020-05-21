@@ -1,0 +1,32 @@
+div.row {
+    border-top: medium double #369;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p.precio {
+    font-size: 160%;
+    color: #369;
+    vertical-align: bottom;
+    height: auto;
+}
+
+img.i_alergenos {
+    width: 40px;
+}
+
+
+/* ***********************/
+ul.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: -5px;
+    display: inline-block;
+}
+
+ul.sp-contact-info {
+    list-style: none;
+    padding: 0;
+    margin: -5px;
+    display: inline-block;
+}
