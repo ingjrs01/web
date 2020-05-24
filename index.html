@@ -44,164 +44,22 @@
         </div>
       </header>
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/navajas.jpg" alt="Navajas" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Navajas</h3></div>
-                    <p>Preparadas a la plancha, con nuestra salsa</p>
+        <div class="container" id="main">
+            <div v-for="plato in platos" class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img :src="plato.fotografia" :alt="plato.titulo" width="130"></div>
+                <div class="col-6 col-sm-7 col-md-8 col-lg-9">
+                    <div><h3>{{plato.titulo}}</h3></div>
+                    <p>{{plato.descripcion}}</p>
                     <div class="alergenos">
-                        <img src="img_menu/moluscos.png" alt="moluscos" class="i_alergenos">
+                        <img v-for="alergeno in plato.alergenos" :src="alergenos[alergeno]" :alt="alergeno" class="i_alergenos">
                     </div>
                 </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">14 €</p></div>
-            </div>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/zamburinas.jpg" alt="Zamburiñas" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Zamburiñas</h3></div>
-                    <p>Preparadas a la plancha, con nuestra salsa</p>
-                    <div class="alergenos">
-                        <img src="img_menu/moluscos.png" alt="moluscos" class="i_alergenos">
-                    </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">14 €</p></div>
-            </div>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/gambas.jpg" alt="Gambas" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Gambas</h3></div>
-                    <p>Gambas fritas</p>
-                    <div class="alergenos">
-                        <img src="img_menu/crustaceos.png" alt="moluscos" class="i_alergenos">
-                    </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">12 €</p></div>
-            </div>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/pulpo.jpg" alt="Pulpo" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Pulpo</h3></div>
-                    <p>Preparado al estilo tradicional</p>
-                    <div class="alergenos">
-                        <img src="img_menu/moluscos.png" alt="moluscos" class="i_alergenos">
-                    </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">14 €</p></div>
-            </div>
-            
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/calamares.jpg" alt="Calamares" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Calamares</h3></div>
-                    <p>Rebozados en harina y fritos</p>
-                    <div class="alergenos">
-                        <img src="img_menu/moluscos.png" alt="moluscos" class="i_alergenos">
-                        <img src="img_menu/gluten.png" alt="moluscos" class="i_alergenos">
-                    </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">12 €</p></div>
-            </div>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/croquetas.jpg" alt="Croquetas" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Croquetas</h3></div>
-                    <p>Totalmente caseras. De Jamón, carne o pulpo</p>
-                    <div class="alergenos">
-                        <img src="img_menu/moluscos.png" alt="moluscos" class="i_alergenos">
-                        <img src="img_menu/lacteos.png" alt="moluscos" class="i_alergenos">
-                        <img src="img_menu/gluten.png" alt="moluscos" class="i_alergenos">
-                    </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">4 €</p></div>
-            </div>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/ensalada.jpg" alt="Ensalada" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Ensalada</h3></div>
-                    <p>Con lechuga, tomate y cebolla</p>
-                    <div class="alergenos">
-                        <img src="img_menu/sulfitos.png" alt="moluscos" class="i_alergenos">
-                    </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">3 €</p></div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/mixta.jpg" alt="Ensalada" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Ensalada Mixta</h3></div>
-                    <p>Con lechuga, tomate, cebolla, atún, huevo, maiz y espárragos</p>
-                    <div class="alergenos">
-                        <img src="img_menu/sulfitos.png" alt="moluscos" class="i_alergenos">
-                        <img src="img_menu/pescado.png" alt="moluscos" class="i_alergenos">
-                        <img src="img_menu/huevos.png" alt="moluscos" class="i_alergenos">
-                    </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">4 €</p></div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/pimientos.jpg" alt="Pimientos" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Pimientos de Padrón</h3></div>
-                    <p>Solos o acompañando algo</p>
-                    <div class="alergenos">
-                    </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">4 €</p></div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/oreja.jpg" alt="Oreja" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Oreja</h3></div>
-                    <p>Preparada a la gallega</p>
-                    <div class="alergenos">
-                    </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">5 €</p></div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/chorizos.jpg" alt="Chorizos" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Chorizos al Albariño</h3></div>
-                    <p>Freídos en aceite de oliva o en vino albariño</p>
-                    <div class="alergenos">
-                        <img src="img_menu/sulfitos.png" alt="moluscos" class="i_alergenos">
-                        <img src="img_menu/lacteos.png" alt="moluscos" class="i_alergenos">
-                        <img src="img_menu/soja.png" alt="moluscos" class="i_alergenos">
-             </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">5 €</p></div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/tortilla.jpg" alt="Tortilla" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Tortilla</h3></div>
-                    <p></p>
-                    <div class="alergenos">
-                        <img src="img_menu/huevos.png" alt="moluscos" class="i_alergenos">
-             </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">9 €</p></div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2"><img src="img_menu/zorza.jpg" alt="Zorza" width="150"></div>
-                <div class="col-7 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>Zorza</h3></div>
-                    <p>Plato típico gallego, que luego servía de relleno de los chorizos</p>
-                    <div class="alergenos">
-                        <img src="img_menu/sulfitos.png" alt="moluscos" class="i_alergenos">
-             </div>
-                </div>
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1"><p class="precio">9 €</p></div>
+                <div class="col-2 col-sm-1 col-md-1 col-lg-1"><p class="precio">{{plato.precio}} €</p></div>
             </div>
 
         </div>
-    </main>    
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/application.js"></script>
 </body>
 </html>
