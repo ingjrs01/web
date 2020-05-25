@@ -38,7 +38,7 @@ new Vue({
                 descripcion: 'Gambas fritas',
                 fotografia: 'img_menu/gambas.jpg', 
                 precio: '12', 
-                alergenos: ['moluscos']
+                alergenos: ['crustaceos']
             },
             {
                 titulo: 'Pulpo',
@@ -69,18 +69,11 @@ new Vue({
                 alergenos: ['sulfitos']
             },
             {
-                titulo: 'Ensalda Mixta',
+                titulo: 'Ensalada Mixta',
                 descripcion: 'Con lechuga, tomate, cebolla, atún, huevo, maiz y espárragos',
                 fotografia: 'img_menu/mixta.jpg', 
                 precio: '4', 
                 alergenos: ['sulfitos','pescado','huevos']
-            },
-            {
-                titulo: 'Navajas',
-                descripcion: 'Preparadas a la plancha con nuestra salsa',
-                fotografia: 'img_menu/navajas.jpg', 
-                precio: '14', 
-                alergenos: ['moluscos']
             },
             {
                 titulo: 'Pimientos de Padrón',
