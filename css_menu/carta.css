@@ -4,13 +4,31 @@ div.row {
     padding-bottom: 5px;
 }
 
+/*
 p.precio {
-    font-size: 160%;
+    font-size: 100%;
     color: #369;
-    vertical-align: bottom;
     height: auto;
 }
+*/
+@media (max-width: 500px) {
+    .precio {
+        font-size: 100%;
+        color: #369;
+        height: auto;
+          }  
+    }
+img.i_alergenos {
+    width: 35px;
+}
 
+@media (min-width: 500px) {
+    .precio {
+        font-size: 160%;
+        color:#369;
+        height: auto;
+          }  
+    }
 img.i_alergenos {
     width: 35px;
 }
