@@ -12,20 +12,29 @@
     <title>Carta</title>
 </head>
 <body>
+  <div id="main">
+
     <header>
-        <div class="collapse bg-dark" id="navbarHeader">
+      <div class="collapse bg-dark" id="navbarHeader">
           <div class="container">
             <div class="row">
-              <div class="col-sm-8 col-md-7 py-4">
+              <div class="col-sm-6 col-md-6 py-4">
                 <h4 class="text-white">Acerca de</h4>
                 <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
               </div>
-              <div class="col-sm-4 offset-md-1 py-4">
+              <div class="col-sm-4 py-4">
                 <h4 class="text-white">Contacto</h4>
                 <ul class="list-unstyled">
                   <li><a href="#" class="text-white">986747314</a></li>
                   <li><a href="#" class="text-white">Like on Facebook</a></li>
                   <li><a href="#" class="text-white">Email me</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-2 py-4">
+                <h4 class="text-white">Idioma</h4>
+                <ul class="list-unstyled">
+                  <li><a @click="switchLang('es')" href="#" class="text-white">Español</a></li>
+                  <li><a @click="switchLang('en')" href="#" class="text-white">English</a></li>
                 </ul>
               </div>
             </div>
@@ -43,23 +52,25 @@
           </div>
         </div>
       </header>
-    <main>
-        <div class="container" id="main">
-            <div v-for="plato in platos" class="row">
-                <div class="col-5 col-sm-4 col-md-3 col-lg-2"><img :src="plato.fotografia" :alt="plato.titulo" width="130"></div>
-                <div class="col-5 col-sm-7 col-md-8 col-lg-9">
-                    <div><h3>{{plato.titulo}}</h3></div>
-                    <p>{{plato.descripcion}}</p>
-                    <div class="alergenos">
-                        <img v-for="alergeno in plato.alergenos" :src="alergenos[alergeno]" :alt="alergeno" class="i_alergenos">
-                    </div>
-                </div>
-                <div class="col-2 col-sm-1 col-md-1 col-lg-1"><p class="precio">{{plato.precio}} €</p></div>
+      <main>
+        <div class="container">
+          <div v-for="plato in platos" class="row">
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2"><img :src="plato.fotografia" :alt="plato.titulo" width="130"></div>
+            <div class="col-5 col-sm-7 col-md-8 col-lg-9">
+              <div><h3>{{plato.titulo}}</h3></div>
+              <p>{{plato.descripcion}}</p>
+              <div class="alergenos">
+                <img v-for="alergeno in plato.alergenos" :src="alergenos[alergeno]" :alt="alergeno" class="i_alergenos">
+              </div>
             </div>
-
+            <div class="col-2 col-sm-1 col-md-1 col-lg-1"><p class="precio">{{plato.precio}} €</p></div>
+          </div>
+          
+          hola: {{idioma}}
         </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="js/application.js"></script>
-</body>
-</html>
+      </main>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="js/application.js"></script>
+    </body>
+    </html>

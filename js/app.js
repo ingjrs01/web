@@ -7,9 +7,9 @@ Vue.component('example-component',{
     }
   },
   methods: {
-      agregarTarea: function() {
-        console.log("Probando cosas")
-      }
+      dale() {
+        console.debug("bla bla bla");
+      }      
   }
 });
 
