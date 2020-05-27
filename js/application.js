@@ -52,7 +52,7 @@ new Vue({
                 titulo: 'Calamares',
                 descripcion: 'Rebozados y fritos',
                 fotografia: 'img_menu/calamares.jpg', 
-                precio: '9', 
+                precio: '12', 
                 alergenos: ['moluscos','gluten']
             },
             {
@@ -87,7 +87,7 @@ new Vue({
                 titulo: 'Oreja',
                 descripcion: 'Preparada a la gallega',
                 fotografia: 'img_menu/oreja.jpg', 
-                precio: '5', 
+                precio: '6', 
                 alergenos: []
             },
             {
@@ -129,14 +129,14 @@ new Vue({
                 titulo: 'Churrasco de Ternera',
                 descripcion: '',
                 fotografia: 'img_menu/churrasco.jpg', 
-                precio: '14', 
+                precio: '12', 
                 alergenos: []
             },
             {
                 titulo: 'Jamón Asado',
                 descripcion: '',
                 fotografia: 'img_menu/asado.jpg', 
-                precio: '14', 
+                precio: '9', 
                 alergenos: ['crustaceos','huevos','apio','gluten','pescado','soja','lacteos']
             },
         ],
@@ -173,7 +173,7 @@ new Vue({
                 titulo: 'Squids',
                 descripcion: 'Rebozados y fritos',
                 fotografia: 'img_menu/calamares.jpg', 
-                precio: '9', 
+                precio: '12', 
                 alergenos: ['moluscos','gluten']
             },
             {
@@ -208,7 +208,7 @@ new Vue({
                 titulo: 'Pork Ear',
                 descripcion: 'Preparada a la gallega',
                 fotografia: 'img_menu/oreja.jpg', 
-                precio: '5', 
+                precio: '6', 
                 alergenos: []
             },
             {
@@ -250,14 +250,14 @@ new Vue({
                 titulo: 'Grilled skirt steak',
                 descripcion: '',
                 fotografia: 'img_menu/churrasco.jpg', 
-                precio: '14', 
+                precio: '12', 
                 alergenos: []
             },
             {
                 titulo: 'Roast ham',
                 descripcion: '',
                 fotografia: 'img_menu/asado.jpg', 
-                precio: '14', 
+                precio: '9', 
                 alergenos: ['crustaceos','huevos','apio','gluten','pescado','soja','lacteos']
             },
         ],
