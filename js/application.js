@@ -52,8 +52,15 @@ new Vue({
                 titulo: 'Calamares',
                 descripcion: 'Rebozados y fritos',
                 fotografia: 'img_menu/calamares.jpg', 
-                precio: '12', 
+                precio: '10', 
                 alergenos: ['moluscos','gluten']
+            },
+            {
+                titulo: 'Calamares a la Plancha',
+                descripcion: '',
+                fotografia: 'img_menu/calamares_plancha.jpg', 
+                precio: '12', 
+                alergenos: ['moluscos']
             },
             {
                 titulo: 'Croquetas',
@@ -173,8 +180,15 @@ new Vue({
                 titulo: 'Squids',
                 descripcion: 'Rebozados y fritos',
                 fotografia: 'img_menu/calamares.jpg', 
-                precio: '12', 
+                precio: '10', 
                 alergenos: ['moluscos','gluten']
+            },
+            {
+                titulo: 'Grilled Squid',
+                descripcion: '',
+                fotografia: 'img_menu/calamares_plancha.jpg', 
+                precio: '12', 
+                alergenos: ['moluscos']
             },
             {
                 titulo: 'Croquettes',
