@@ -98,7 +98,7 @@ new Vue({
                 alergenos: []
             },
             {
-                titulo: 'Chorizitos',
+                titulo: 'Choricitos',
                 descripcion: 'Freídos en aceite de oliva o en vino albariño',
                 fotografia: 'img_menu/chorizos.jpg', 
                 precio: '5', 
