@@ -25,6 +25,7 @@ new Vue({
                 descripcion: 'Preparadas a la plancha con nuestra salsa',
                 fotografia: 'img_menu/navajas.jpg', 
                 precio: '14', 
+                precio_p: '9',
                 alergenos: ['moluscos']
             },
             {
@@ -32,6 +33,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/zamburinas.jpg', 
                 precio: '14', 
+                precio_p: '9',
                 alergenos: ['moluscos']
             },
             {
@@ -39,6 +41,7 @@ new Vue({
                 descripcion: 'Gambas fritas',
                 fotografia: 'img_menu/gambas.jpg', 
                 precio: '12', 
+                precio_p: '8',
                 alergenos: ['crustaceos']
             },
             {
@@ -46,6 +49,7 @@ new Vue({
                 descripcion: 'Preparado al estilo tradicional',
                 fotografia: 'img_menu/pulpo.jpg', 
                 precio: '14', 
+                precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
@@ -53,6 +57,7 @@ new Vue({
                 descripcion: 'Rebozados y fritos',
                 fotografia: 'img_menu/calamares.jpg', 
                 precio: '10', 
+                precio_p: '7',
                 alergenos: ['moluscos','gluten']
             },
             {
@@ -60,6 +65,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/calamares_plancha.jpg', 
                 precio: '12', 
+                precio_p: '9',
                 alergenos: ['moluscos']
             },
             {
@@ -67,6 +73,7 @@ new Vue({
                 descripcion: 'Caseras, de pulpo, carne o jamón',
                 fotografia: 'img_menu/croquetas.jpg', 
                 precio: '4', 
+                precio_p: '3',
                 alergenos: ['moluscos','lacteos','gluten']
             },
             {
@@ -74,6 +81,7 @@ new Vue({
                 descripcion: 'Ensalada de lechuga, tomate y cebolla',
                 fotografia: 'img_menu/ensalada.jpg', 
                 precio: '3', 
+                precio_p: '2',
                 alergenos: ['sulfitos']
             },
             {
@@ -81,6 +89,7 @@ new Vue({
                 descripcion: 'Con lechuga, tomate, cebolla, atún, huevo, maiz y espárragos',
                 fotografia: 'img_menu/mixta.jpg', 
                 precio: '4', 
+                precio_p: '3',
                 alergenos: ['sulfitos','pescado','huevos']
             },
             {
@@ -88,13 +97,15 @@ new Vue({
                 descripcion: 'Simplemente deliciosos',
                 fotografia: 'img_menu/pimientos.jpg', 
                 precio: '4', 
+                precio_p: '3',
                 alergenos: []
             },
             {
                 titulo: 'Oreja',
                 descripcion: 'Preparada a la gallega',
                 fotografia: 'img_menu/oreja.jpg', 
-                precio: '6', 
+                precio: '6',
+                precio_p: '0',
                 alergenos: []
             },
             {
@@ -102,6 +113,7 @@ new Vue({
                 descripcion: 'Freídos en aceite de oliva o en vino albariño',
                 fotografia: 'img_menu/chorizos.jpg', 
                 precio: '5', 
+                precio_p: '3',
                 alergenos: ['sulfitos','lacteos','soja']
             },
             {
@@ -109,6 +121,7 @@ new Vue({
                 descripcion: 'Simplemente pruébala',
                 fotografia: 'img_menu/tortilla.jpg', 
                 precio: '9', 
+                precio_p: '6',
                 alergenos: ['huevos']
             },
             {
@@ -116,6 +129,7 @@ new Vue({
                 descripcion: 'Un plato único, carne adobada',
                 fotografia: 'img_menu/zorza.jpg', 
                 precio: '9', 
+                precio_p: '6',
                 alergenos: ['sulfitos']
             },
             {
@@ -123,6 +137,7 @@ new Vue({
                 descripcion: 'Preparadas a la plancha con nuestra salsa',
                 fotografia: 'img_menu/lomo.jpg', 
                 precio: '9', 
+                precio_p: '6',
                 alergenos: ['soja']
             },
             {
@@ -130,6 +145,7 @@ new Vue({
                 descripcion: 'Una carne acompañada de pimientos',
                 fotografia: 'img_menu/richada.jpg', 
                 precio: '10', 
+                precio_p: '7',
                 alergenos: []
             },
             {
@@ -137,6 +153,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/churrasco.jpg', 
                 precio: '12', 
+                precio_p: '8',
                 alergenos: []
             },
             {
@@ -144,6 +161,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/asado.jpg', 
                 precio: '9', 
+                precio_p: '7',
                 alergenos: ['crustaceos','huevos','apio','gluten','pescado','soja','lacteos']
             },
         ],
@@ -153,6 +171,7 @@ new Vue({
                 descripcion: 'Preparadas a la plancha con nuestra salsa',
                 fotografia: 'img_menu/navajas.jpg', 
                 precio: '14', 
+                precio_p: '9',
                 alergenos: ['moluscos']
             },
             {
@@ -160,6 +179,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/zamburinas.jpg', 
                 precio: '14', 
+                precio_p: '9',
                 alergenos: ['moluscos']
             },
             {
@@ -167,6 +187,7 @@ new Vue({
                 descripcion: 'Gambas fritas',
                 fotografia: 'img_menu/gambas.jpg', 
                 precio: '12', 
+                precio_p: '8',
                 alergenos: ['crustaceos']
             },
             {
@@ -174,6 +195,7 @@ new Vue({
                 descripcion: 'Preparado al estilo tradicional',
                 fotografia: 'img_menu/pulpo.jpg', 
                 precio: '14', 
+                precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
@@ -181,6 +203,7 @@ new Vue({
                 descripcion: 'Rebozados y fritos',
                 fotografia: 'img_menu/calamares.jpg', 
                 precio: '10', 
+                precio_p: '7',
                 alergenos: ['moluscos','gluten']
             },
             {
@@ -188,6 +211,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/calamares_plancha.jpg', 
                 precio: '12', 
+                precio_p: '9',
                 alergenos: ['moluscos']
             },
             {
@@ -195,6 +219,7 @@ new Vue({
                 descripcion: 'Caseras, de pulpo, carne o jamón',
                 fotografia: 'img_menu/croquetas.jpg', 
                 precio: '4', 
+                precio: '3',
                 alergenos: ['moluscos','lacteos','gluten']
             },
             {
@@ -202,6 +227,7 @@ new Vue({
                 descripcion: 'Ensalada de lechuga, tomate y cebolla',
                 fotografia: 'img_menu/ensalada.jpg', 
                 precio: '3', 
+                precio_p: '2',
                 alergenos: ['sulfitos']
             },
             {
@@ -209,6 +235,7 @@ new Vue({
                 descripcion: 'Con lechuga, tomate, cebolla, atún, huevo, maiz y espárragos',
                 fotografia: 'img_menu/mixta.jpg', 
                 precio: '4', 
+                precio_p: '3',
                 alergenos: ['sulfitos','pescado','huevos']
             },
             {
@@ -216,6 +243,7 @@ new Vue({
                 descripcion: 'Simplemente deliciosos',
                 fotografia: 'img_menu/pimientos.jpg', 
                 precio: '4', 
+                precio_p: '3',
                 alergenos: []
             },
             {
@@ -230,6 +258,7 @@ new Vue({
                 descripcion: 'Freídos en aceite de oliva o en vino albariño',
                 fotografia: 'img_menu/chorizos.jpg', 
                 precio: '5', 
+                precio_p: '3',
                 alergenos: ['sulfitos','lacteos','soja']
             },
             {
@@ -237,6 +266,7 @@ new Vue({
                 descripcion: 'Simplemente pruébala',
                 fotografia: 'img_menu/tortilla.jpg', 
                 precio: '9', 
+                precio_p: '6',
                 alergenos: ['huevos']
             },
             {
@@ -244,6 +274,7 @@ new Vue({
                 descripcion: 'Un plato único, carne adobada',
                 fotografia: 'img_menu/zorza.jpg', 
                 precio: '9', 
+                precio_p: '6',
                 alergenos: ['sulfitos']
             },
             {
@@ -251,6 +282,7 @@ new Vue({
                 descripcion: 'Preparadas a la plancha con nuestra salsa',
                 fotografia: 'img_menu/lomo.jpg', 
                 precio: '9', 
+                precio_p: '6',
                 alergenos: ['soja']
             },
             {
@@ -258,6 +290,7 @@ new Vue({
                 descripcion: 'Una carne acompañada de pimientos',
                 fotografia: 'img_menu/richada.jpg', 
                 precio: '10', 
+                precio_p: '7',
                 alergenos: []
             },
             {
@@ -265,6 +298,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/churrasco.jpg', 
                 precio: '12', 
+                precio_p: '8',
                 alergenos: []
             },
             {
@@ -272,6 +306,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/asado.jpg', 
                 precio: '9', 
+                precio_p: '6',
                 alergenos: ['crustaceos','huevos','apio','gluten','pescado','soja','lacteos']
             },
         ],

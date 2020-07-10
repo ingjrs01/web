@@ -73,7 +73,8 @@
                           <img v-for="alergeno in plato.alergenos" :src="alergenos[alergeno]" :alt="alergeno" class="i_alergenos">
                         </div>
                       </div>
-                      <div class="col-2 col-sm-1 col-md-1 col-lg-1"><p class="precio">{{plato.precio}} €</p></div>
+                      <div class="col-2 col-sm-1 col-md-1 col-lg-1 text-right"><p class="precio">{{plato.precio}} €</p>
+                        <p v-if="plato.precio_p != 0" class="precio">{{plato.precio_p}} €</p></div>
                     </div>
                   </div>
                 </div>
