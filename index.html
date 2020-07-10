@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css_menu/carta.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>           
@@ -43,7 +44,7 @@
         <div class="navbar navbar-dark bg-dark box-shadow">
           <div class="container d-flex justify-content-between">
             <a href="#" class="navbar-brand d-flex align-items-center">
-              <img src="img_menu\pepper-hot-solid.svg" alt="" width="20" height="20" >&nbsp;
+              <img src="img_menu\icono.png" alt="" width="20" height="20" >&nbsp;
               <strong>Furancho de Juan - Carta</strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,16 +55,59 @@
       </header>
       <main>
         <div class="container">
-          <div v-for="plato in platos" class="row">
-            <div class="col-5 col-sm-4 col-md-3 col-lg-2"><img :src="plato.fotografia" :alt="plato.titulo" width="130"></div>
-            <div class="col-5 col-sm-7 col-md-8 col-lg-9">
-              <div><h3>{{plato.titulo}}</h3></div>
-              <p>{{plato.descripcion}}</p>
-              <div class="alergenos">
-                <img v-for="alergeno in plato.alergenos" :src="alergenos[alergeno]" :alt="alergeno" class="i_alergenos">
+          <div>
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header text-light bg-dark" id="headingOne">
+                    <h2 data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">{{tapas_label}}
+                      <!--&nbsp;<i class="fas fa-angle-down rotate-icon text-light icon-align-right"></i>--></h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <div v-for="plato in platos" class="row">
+                      <div class="col-5 col-sm-4 col-md-3 col-lg-2"><img :src="plato.fotografia" :alt="plato.titulo" width="130"></div>
+                      <div class="col-5 col-sm-7 col-md-8 col-lg-9">
+                        <div><h5 class="itemname">{{plato.titulo}}</h5></div>
+                        <p>{{plato.descripcion}}</p>
+                        <div class="alergenos">
+                          <img v-for="alergeno in plato.alergenos" :src="alergenos[alergeno]" :alt="alergeno" class="i_alergenos">
+                        </div>
+                      </div>
+                      <div class="col-2 col-sm-1 col-md-1 col-lg-1 text-right"><p class="precio">{{plato.precio}} €</p>
+                        <p v-if="plato.precio_p != 0" class="precio">{{plato.precio_p}} €</p></div>
+                    </div>
+                  </div>
+                </div>
               </div>
+
+              <div class="card">
+                <div class="card-header text-light bg-dark" id="headingTwo">
+                    <h2  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">{{postres_label}}</h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <div v-for="plato in postres" class="row">
+                      <div class="col-5 col-sm-4 col-md-3 col-lg-2"><img :src="plato.fotografia" :alt="plato.titulo" width="130"></div>
+                      <div class="col-5 col-sm-7 col-md-8 col-lg-9">
+                        <div><h5 class="itemname">{{plato.titulo}}</h5></div>
+                        <p>{{plato.descripcion}}</p>
+                        <div class="alergenos">
+                          <img v-for="alergeno in plato.alergenos" :src="alergenos[alergeno]" :alt="alergeno" class="i_alergenos">
+                        </div>
+                      </div>
+                      <div class="col-2 col-sm-1 col-md-1 col-lg-1"><p class="precio">{{plato.precio}} €</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- Fin del accordion 1-->
+          </div>
+          <div class="pie">
+            <div class="col-12 col-xs-12 center-block" align="center">
+              <h3>{{ alergenos_label }}</h3>
+              <img :src="alergenos_img" alt="" >
             </div>
-            <div class="col-2 col-sm-1 col-md-1 col-lg-1"><p class="precio">{{plato.precio}} €</p></div>
           </div>
         </div>
       </main>
