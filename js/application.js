@@ -275,22 +275,146 @@ new Vue({
                 alergenos: ['crustaceos','huevos','apio','gluten','pescado','soja','lacteos']
             },
         ],
+        postres_es: [
+            {
+                titulo: 'Tarta Chocolate',
+                descripcion: 'Tarta casera de chocolate',
+                fotografia: 'img_menu/chocolate.jpg', 
+                precio: '3', 
+                alergenos: ['lacteos','gluten','soja','sulfitos']
+            },
+            {
+                titulo: 'Tarta de Queso',
+                descripcion: 'Tarta casera de queso',
+                fotografia: 'img_menu/tarta_queso.jpg', 
+                precio: '3', 
+                alergenos: ['huevos','lacteos','gluten']
+            },
+            {
+                titulo: 'Flan de Café',
+                descripcion: 'Fresco y delicioso',
+                fotografia: 'img_menu/tarta_cafe.jpg', 
+                precio: '3', 
+                alergenos: ['huevos','lacteos','gluten']
+            },
+            {
+                titulo: 'Flan de Huevo',
+                descripcion: 'Flan de huevo casero',
+                fotografia: 'img_menu/flan_huevo.jpg', 
+                precio: '3', 
+                alergenos: ['huevos','lacteos']
+            },
+            {
+                titulo: 'Tarta Helada',
+                descripcion: 'No casera',
+                fotografia: 'img_menu/tarta_helada.jpg', 
+                precio: '3', 
+                alergenos: ['lacteos','soja','cascara']
+            },
+            {
+                titulo: 'Tetilla con Membrillo',
+                descripcion: '',
+                fotografia: 'img_menu/tetilla.jpg', 
+                precio: '8', 
+                alergenos: ['lacteos']
+            },
+            {
+                titulo: 'Cañas de Crema',
+                descripcion: '',
+                fotografia: 'img_menu/canas_crema.jpg', 
+                precio: '1,5', 
+                alergenos: ['huevos','lacteos','gluten','sulfitos']
+            },
+        ],
+        postres_en: [
+            {
+                titulo: 'Chocolate cake',
+                descripcion: 'Tarta casera de chocolate',
+                fotografia: 'img_menu/chocolate.jpg', 
+                precio: '3', 
+                alergenos: ['lacteos','gluten','soja','sulfitos']
+            },
+            {
+                titulo: 'Cheesecake',
+                descripcion: 'Tarta casera de queso',
+                fotografia: 'img_menu/tarta_queso.jpg', 
+                precio: '3', 
+                alergenos: ['huevos','lacteos','gluten']
+            },
+            {
+                titulo: 'Coffee cake',
+                descripcion: 'Fresco y delicioso',
+                fotografia: 'img_menu/tarta_cafe.jpg', 
+                precio: '3', 
+                alergenos: ['huevos','lacteos','gluten']
+            },
+            {
+                titulo: 'Creme caramel',
+                descripcion: 'Flan de huevo casero',
+                fotografia: 'img_menu/flan_huevo.jpg', 
+                precio: '3', 
+                alergenos: ['huevos','lacteos']
+            },
+            {
+                titulo: 'Iced cake',
+                descripcion: 'No casera',
+                fotografia: 'img_menu/tarta_helada.jpg', 
+                precio: '3', 
+                alergenos: ['lacteos','soja','cascara']
+            },
+            {
+                titulo: 'Cheese with Quince',
+                descripcion: '',
+                fotografia: 'img_menu/tetilla.jpg', 
+                precio: '8', 
+                alergenos: ['lacteos']
+            },
+            {
+                titulo: 'Stuffed canes os cream',
+                descripcion: '',
+                fotografia: 'img_menu/canas_crema.jpg', 
+                precio: '1,5', 
+                alergenos: ['huevos','lacteos','gluten','sulfitos']
+            },
+        ],
         platos: [],
+        postres: [],
+        tapas_label: 'Tapas',
+        postres_label: 'Postres',
+        alergenos_label: 'Tabla de Alérgenos',
+        alergenos_img : 'img_menu/alergenos_es.png',
     },
     methods: {
         switchLang(idioma) {
             let pepe = "hola";
             this.idioma = idioma
-            if (idioma == 'es') 
+            if (idioma == 'es') {
                 this.platos = this.platos_es;
-            else
+                this.postres = this.postres_es;
+                this.postres_label = 'Postres';
+                this.tapas_label = 'Tapas';
+                this.alergenos_label= 'Tabla de Alérgenos';
+                this.alergenos_img = 'img_menu/alergenos_es.png';
+            }
+            else {
                 this.platos = this.platos_en;
+                this.postres = this.postres_en;
+                this.tapas_label = 'Menu';
+                this.postres_label = 'Desserts'
+                this.alergenos_label= 'List of Allergens';
+                this.alergenos_img = 'img_menu/alergenos_en.png';
+            }
         }
     },
     created() {
         console.log("Iniciada la página");
         this.switchLang();
         this.platos = this.platos_es;
+        this.postres = this.postres_es;
+        this.postres_label = 'Postres';
+        this.tapas_label = 'Tapas';
+        this.alergenos_label= 'Tabla de Alérgenos';
+        this.alergenos_img = 'img_menu/alergenos_es.png';
     }
 
 

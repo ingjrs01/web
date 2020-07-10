@@ -27,8 +27,11 @@ img.i_alergenos {
         font-size: 160%;
         color:#369;
         height: auto;
-          }  
+    }  
+    .itemname {
+        font-size: 200%;
     }
+}
 img.i_alergenos {
     width: 35px;
 }
@@ -47,4 +50,18 @@ ul.sp-contact-info {
     padding: 0;
     margin: -5px;
     display: inline-block;
+}
+
+/*********************************/
+
+div.pie {
+    margin-top: 1em;
+    padding-top: 30px;
+}
+
+/***********************************/
+
+.md-accordion .card .card-header a:not(.collapsed) .rotate-icon {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
