@@ -24,8 +24,8 @@ new Vue({
                 titulo: 'Navajas',
                 descripcion: 'Preparadas a la plancha con nuestra salsa',
                 fotografia: 'img_menu/navajas.jpg', 
-                precio: '14', 
-                precio_p: '9',
+                precio: '15', 
+                precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
@@ -72,24 +72,24 @@ new Vue({
                 titulo: 'Croquetas',
                 descripcion: 'Caseras, de pulpo, carne o jamón',
                 fotografia: 'img_menu/croquetas.jpg', 
-                precio: '4', 
-                precio_p: '3',
+                precio: '6', 
+                precio_p: '3,5',
                 alergenos: ['moluscos','lacteos','gluten']
             },
             {
                 titulo: 'Ensalada',
                 descripcion: 'Ensalada de lechuga, tomate y cebolla',
                 fotografia: 'img_menu/ensalada.jpg', 
-                precio: '3', 
-                precio_p: '2',
+                precio: '4', 
+                precio_p: '3',
                 alergenos: ['sulfitos']
             },
             {
                 titulo: 'Ensalada Mixta',
                 descripcion: 'Con lechuga, tomate, cebolla, atún, huevo, maiz y espárragos',
                 fotografia: 'img_menu/mixta.jpg', 
-                precio: '4', 
-                precio_p: '3',
+                precio: '6', 
+                precio_p: '4',
                 alergenos: ['sulfitos','pescado','huevos']
             },
             {
@@ -120,8 +120,8 @@ new Vue({
                 titulo: 'Tortilla',
                 descripcion: 'Simplemente pruébala',
                 fotografia: 'img_menu/tortilla.jpg', 
-                precio: '9', 
-                precio_p: '6',
+                precio: '11', 
+                precio_p: '8',
                 alergenos: ['huevos']
             },
             {
@@ -144,8 +144,8 @@ new Vue({
                 titulo: 'Richada',
                 descripcion: 'Una carne acompañada de pimientos',
                 fotografia: 'img_menu/richada.jpg', 
-                precio: '10', 
-                precio_p: '7',
+                precio: '12', 
+                precio_p: '10',
                 alergenos: []
             },
             {
@@ -160,7 +160,7 @@ new Vue({
                 titulo: 'Jamón Asado',
                 descripcion: '',
                 fotografia: 'img_menu/asado.jpg', 
-                precio: '9', 
+                precio: '10', 
                 precio_p: '7',
                 alergenos: ['crustaceos','huevos','apio','gluten','pescado','soja','lacteos']
             },
@@ -170,16 +170,16 @@ new Vue({
                 titulo: 'Razor Shells',
                 descripcion: 'Preparadas a la plancha con nuestra salsa',
                 fotografia: 'img_menu/navajas.jpg', 
-                precio: '14', 
-                precio_p: '9',
+                precio: '15', 
+                precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
                 titulo: 'Variegated scallop',
                 descripcion: '',
                 fotografia: 'img_menu/zamburinas.jpg', 
-                precio: '14', 
-                precio_p: '9',
+                precio: '15', 
+                precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
@@ -194,7 +194,7 @@ new Vue({
                 titulo: 'Octupus',
                 descripcion: 'Preparado al estilo tradicional',
                 fotografia: 'img_menu/pulpo.jpg', 
-                precio: '14', 
+                precio: '16', 
                 precio_p: '10',
                 alergenos: ['moluscos']
             },
@@ -218,24 +218,24 @@ new Vue({
                 titulo: 'Croquettes',
                 descripcion: 'Caseras, de pulpo, carne o jamón',
                 fotografia: 'img_menu/croquetas.jpg', 
-                precio: '4', 
-                precio: '3',
+                precio: '6', 
+                precio: '3,5',
                 alergenos: ['moluscos','lacteos','gluten']
             },
             {
                 titulo: 'Salad',
                 descripcion: 'Ensalada de lechuga, tomate y cebolla',
                 fotografia: 'img_menu/ensalada.jpg', 
-                precio: '3', 
-                precio_p: '2',
+                precio: '4', 
+                precio_p: '3',
                 alergenos: ['sulfitos']
             },
             {
                 titulo: 'Mixed Salad',
                 descripcion: 'Con lechuga, tomate, cebolla, atún, huevo, maiz y espárragos',
                 fotografia: 'img_menu/mixta.jpg', 
-                precio: '4', 
-                precio_p: '3',
+                precio: '6', 
+                precio_p: '4',
                 alergenos: ['sulfitos','pescado','huevos']
             },
             {
@@ -265,8 +265,8 @@ new Vue({
                 titulo: 'Omelette',
                 descripcion: 'Simplemente pruébala',
                 fotografia: 'img_menu/tortilla.jpg', 
-                precio: '9', 
-                precio_p: '6',
+                precio: '11', 
+                precio_p: '8',
                 alergenos: ['huevos']
             },
             {
@@ -289,8 +289,8 @@ new Vue({
                 titulo: 'Steak',
                 descripcion: 'Una carne acompañada de pimientos',
                 fotografia: 'img_menu/richada.jpg', 
-                precio: '10', 
-                precio_p: '7',
+                precio: '12', 
+                precio_p: '10',
                 alergenos: []
             },
             {
@@ -305,7 +305,7 @@ new Vue({
                 titulo: 'Roast ham',
                 descripcion: '',
                 fotografia: 'img_menu/asado.jpg', 
-                precio: '9', 
+                precio: '10', 
                 precio_p: '6',
                 alergenos: ['crustaceos','huevos','apio','gluten','pescado','soja','lacteos']
             },
