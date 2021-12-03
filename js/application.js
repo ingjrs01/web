@@ -32,8 +32,8 @@ new Vue({
                 titulo: 'Zamburiñas',
                 descripcion: '',
                 fotografia: 'img_menu/zamburinas.jpg', 
-                precio: '14', 
-                precio_p: '9',
+                precio: '15', 
+                precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
@@ -48,7 +48,7 @@ new Vue({
                 titulo: 'Pulpo',
                 descripcion: 'Preparado al estilo tradicional',
                 fotografia: 'img_menu/pulpo.jpg', 
-                precio: '14', 
+                precio: '16', 
                 precio_p: '10',
                 alergenos: ['moluscos']
             },
