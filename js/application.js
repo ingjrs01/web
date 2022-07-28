@@ -48,8 +48,8 @@ new Vue({
                 titulo: 'Pulpo',
                 descripcion: 'Preparado al estilo tradicional',
                 fotografia: 'img_menu/pulpo.jpg', 
-                precio: '16', 
-                precio_p: '10',
+                precio: '18', 
+                //precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
@@ -194,8 +194,8 @@ new Vue({
                 titulo: 'Octupus',
                 descripcion: 'Preparado al estilo tradicional',
                 fotografia: 'img_menu/pulpo.jpg', 
-                precio: '16', 
-                precio_p: '10',
+                precio: '18', 
+                //precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
