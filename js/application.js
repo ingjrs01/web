@@ -442,7 +442,7 @@ new Vue({
         }
     },
     created() {
-        console.log("Iniciada la página.");
+        console.log("Iniciada la página");
         this.switchLang();
         this.platos = this.platos_es;
         this.postres = this.postres_es;
