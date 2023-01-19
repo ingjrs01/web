@@ -73,7 +73,7 @@ new Vue({
                 descripcion: 'Caseras, de pulpo, carne o jamón',
                 fotografia: 'img_menu/croquetas.jpg', 
                 precio: '6', 
-                precio_p: '3,5',
+                //precio_p: '3,5',
                 alergenos: ['moluscos','lacteos','gluten']
             },
             {
@@ -113,14 +113,14 @@ new Vue({
                 descripcion: 'Freídos en aceite de oliva o en vino albariño',
                 fotografia: 'img_menu/chorizos.jpg', 
                 precio: '5', 
-                precio_p: '3',
+                //precio_p: '3',
                 alergenos: ['sulfitos','lacteos','soja']
             },
             {
                 titulo: 'Tortilla',
                 descripcion: 'Simplemente pruébala',
                 fotografia: 'img_menu/tortilla.jpg', 
-                precio: '11', 
+                precio: '12', 
                 precio_p: '8',
                 alergenos: ['huevos']
             },
@@ -128,7 +128,7 @@ new Vue({
                 titulo: 'Zorza',
                 descripcion: 'Un plato único, carne adobada',
                 fotografia: 'img_menu/zorza.jpg', 
-                precio: '9', 
+                precio: '10', 
                 precio_p: '6',
                 alergenos: ['sulfitos']
             },
@@ -136,7 +136,7 @@ new Vue({
                 titulo: 'Lomo con Pimientos',
                 descripcion: 'Preparadas a la plancha con nuestra salsa',
                 fotografia: 'img_menu/lomo.jpg', 
-                precio: '9', 
+                precio: '10', 
                 precio_p: '6',
                 alergenos: ['soja']
             },
@@ -144,7 +144,7 @@ new Vue({
                 titulo: 'Richada',
                 descripcion: 'Una carne acompañada de pimientos',
                 fotografia: 'img_menu/richada.jpg', 
-                precio: '12', 
+                precio: '14', 
                 precio_p: '10',
                 alergenos: []
             },
@@ -152,7 +152,7 @@ new Vue({
                 titulo: 'Churrasco de Ternera',
                 descripcion: '',
                 fotografia: 'img_menu/churrasco.jpg', 
-                precio: '12', 
+                precio: '14', 
                 precio_p: '8',
                 alergenos: []
             },
@@ -160,8 +160,8 @@ new Vue({
                 titulo: 'Jamón Asado',
                 descripcion: '',
                 fotografia: 'img_menu/asado.jpg', 
-                precio: '10', 
-                precio_p: '7',
+                precio: '12', 
+                precio_p: '8',
                 alergenos: ['crustaceos','huevos','apio','gluten','pescado','soja','lacteos']
             },
         ],
@@ -219,7 +219,7 @@ new Vue({
                 descripcion: 'Caseras, de pulpo, carne o jamón',
                 fotografia: 'img_menu/croquetas.jpg', 
                 precio: '6', 
-                precio: '3,5',
+                //precio: '3,5',
                 alergenos: ['moluscos','lacteos','gluten']
             },
             {
@@ -265,7 +265,7 @@ new Vue({
                 titulo: 'Omelette',
                 descripcion: 'Simplemente pruébala',
                 fotografia: 'img_menu/tortilla.jpg', 
-                precio: '11', 
+                precio: '12', 
                 precio_p: '8',
                 alergenos: ['huevos']
             },
@@ -273,7 +273,7 @@ new Vue({
                 titulo: 'Zorza',
                 descripcion: 'Un plato único, carne adobada',
                 fotografia: 'img_menu/zorza.jpg', 
-                precio: '9', 
+                precio: '10', 
                 precio_p: '6',
                 alergenos: ['sulfitos']
             },
@@ -281,7 +281,7 @@ new Vue({
                 titulo: 'Loin with peppers',
                 descripcion: 'Preparadas a la plancha con nuestra salsa',
                 fotografia: 'img_menu/lomo.jpg', 
-                precio: '9', 
+                precio: '10', 
                 precio_p: '6',
                 alergenos: ['soja']
             },
@@ -289,7 +289,7 @@ new Vue({
                 titulo: 'Steak',
                 descripcion: 'Una carne acompañada de pimientos',
                 fotografia: 'img_menu/richada.jpg', 
-                precio: '12', 
+                precio: '14', 
                 precio_p: '10',
                 alergenos: []
             },
@@ -297,7 +297,7 @@ new Vue({
                 titulo: 'Grilled skirt steak',
                 descripcion: '',
                 fotografia: 'img_menu/churrasco.jpg', 
-                precio: '12', 
+                precio: '14', 
                 precio_p: '8',
                 alergenos: []
             },
@@ -305,8 +305,8 @@ new Vue({
                 titulo: 'Roast ham',
                 descripcion: '',
                 fotografia: 'img_menu/asado.jpg', 
-                precio: '10', 
-                precio_p: '6',
+                precio: '12', 
+                precio_p: '8',
                 alergenos: ['crustaceos','huevos','apio','gluten','pescado','soja','lacteos']
             },
         ],
