@@ -25,7 +25,7 @@ new Vue({
                 descripcion: 'Preparadas a la plancha con nuestra salsa',
                 fotografia: 'img_menu/navajas.jpg', 
                 precio: '15', 
-                precio_p: '10',
+                //precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
@@ -33,7 +33,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/zamburinas.jpg', 
                 precio: '15', 
-                precio_p: '10',
+                //precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
@@ -48,7 +48,7 @@ new Vue({
                 titulo: 'Pulpo',
                 descripcion: 'Preparado al estilo tradicional',
                 fotografia: 'img_menu/pulpo.jpg', 
-                precio: '18', 
+                precio: '20', 
                 //precio_p: '10',
                 alergenos: ['moluscos']
             },
@@ -57,7 +57,7 @@ new Vue({
                 descripcion: 'Rebozados y fritos',
                 fotografia: 'img_menu/calamares.jpg', 
                 precio: '10', 
-                precio_p: '7',
+                //precio_p: '7',
                 alergenos: ['moluscos','gluten']
             },
             {
@@ -65,7 +65,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/calamares_plancha.jpg', 
                 precio: '12', 
-                precio_p: '9',
+                //precio_p: '9',
                 alergenos: ['moluscos']
             },
             {
@@ -105,7 +105,7 @@ new Vue({
                 descripcion: 'Preparada a la gallega',
                 fotografia: 'img_menu/oreja.jpg', 
                 precio: '6',
-                precio_p: '0',
+                //precio_p: '0',
                 alergenos: []
             },
             {
@@ -171,7 +171,7 @@ new Vue({
                 descripcion: 'Preparadas a la plancha con nuestra salsa',
                 fotografia: 'img_menu/navajas.jpg', 
                 precio: '15', 
-                precio_p: '10',
+                //precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
@@ -179,7 +179,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/zamburinas.jpg', 
                 precio: '15', 
-                precio_p: '10',
+                //precio_p: '10',
                 alergenos: ['moluscos']
             },
             {
@@ -187,14 +187,14 @@ new Vue({
                 descripcion: 'Gambas fritas',
                 fotografia: 'img_menu/gambas.jpg', 
                 precio: '12', 
-                precio_p: '8',
+                //precio_p: '8',
                 alergenos: ['crustaceos']
             },
             {
                 titulo: 'Octupus',
                 descripcion: 'Preparado al estilo tradicional',
                 fotografia: 'img_menu/pulpo.jpg', 
-                precio: '18', 
+                precio: '20', 
                 //precio_p: '10',
                 alergenos: ['moluscos']
             },
@@ -203,7 +203,7 @@ new Vue({
                 descripcion: 'Rebozados y fritos',
                 fotografia: 'img_menu/calamares.jpg', 
                 precio: '10', 
-                precio_p: '7',
+                //precio_p: '7',
                 alergenos: ['moluscos','gluten']
             },
             {
@@ -211,7 +211,7 @@ new Vue({
                 descripcion: '',
                 fotografia: 'img_menu/calamares_plancha.jpg', 
                 precio: '12', 
-                precio_p: '9',
+                //precio_p: '9',
                 alergenos: ['moluscos']
             },
             {
