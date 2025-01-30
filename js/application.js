@@ -32,7 +32,7 @@ new Vue({
                 titulo: 'Zamburiñas',
                 descripcion: '',
                 fotografia: 'img_menu/zamburinas.jpg',
-                precio: '15',
+                precio: '16',
                 //precio_p: '10',
                 alergenos: ['moluscos']
             },
@@ -178,7 +178,7 @@ new Vue({
                 titulo: 'Variegated scallop',
                 descripcion: '',
                 fotografia: 'img_menu/zamburinas.jpg',
-                precio: '15',
+                precio: '16',
                 //precio_p: '10',
                 alergenos: ['moluscos']
             },
